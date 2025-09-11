@@ -1,12 +1,9 @@
-.theme-light .page {
-  background-image: none;
-}
-
 .theme-light .header_decorative_text {
   display: none;
 }
 
 :root.theme-light {
+  --background-image-link: url("../images/cover-image-light.png");
   --bg-color: #fef2f6;
   --accent-color: #ff8dcb;
   --accent-color-rgb: 255, 0, 112;
@@ -19,6 +16,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --background-image-link: url("../images/cover-image-light.png");
     --bg-color: #fef2f6;
     --accent-color: #ff8dcb;
     --accent-color-rgb: 255, 0, 112;
@@ -27,10 +25,6 @@
     --text-color: #353430;
     --hover-color: #353430;
     --hover-color-rgb: 53, 52, 48;
-  }
-
-  .page {
-    background-image: none;
   }
 
   .header_decorative_text {
